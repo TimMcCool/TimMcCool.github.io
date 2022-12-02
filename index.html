@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <!--<![endif]-->
+   <head>
+      <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="/style.css" />
+      <script type="text/javascript" src="/script.js"></script>
+   </head>
+   <body>
+      <div id="app">
+         <div class="page">
+            <div id="view">
+               <div>
+                  <div class="outer">
+                     <div class="title-banner masthead">
+                        <div class="inner">
+                           <h1 class="title-banner-h1"><span>Explore 2.0</span></h1>
+                        </div>
+                     </div>
+                     <div class="sort-controls">
+                        <div class="sub-nav categories">
+                           <a href="/explore/projects/all/">
+                              <li class={{active('all')}}><span>All</span></li>
+                           </a>
+                           <a href="/explore/projects/animations/">
+                              <li class="{{active('animations')}}"><span>Animations</span></li>
+                           </a>
+                           <a href="/explore/projects/art/">
+                              <li class="{{active('art')}}"><span>Art</span></li>
+                           </a>
+                           <a href="/explore/projects/games/">
+                              <li class="{{active('games')}}"><span>Games</span></li>
+                           </a>
+                           <a href="/explore/projects/tutorials/">
+                              <li class="{{active('tutorials')}}"><span>Tutorials</span></li>
+                           </a>
+                        </div>
+                        <!--<form class="sort-mode" novalidate="">
+                           <div class="select">
+                              <div class="form-group row">
+                                 <label class="control-label col-sm-3" data-required="false" for="frc-sort-1088"></label>
+                                 <div class="col-sm-9">
+                                    <select class="form-control" name="sort" id="frc-sort-1088">
+                                       <option value="trending">Trending</option>
+                                       <option value="popular">Popular</option>
+                                       <option value="recent">Recent</option>
+                                    </select>
+                                    <span class="help-block">Not Required</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </form>-->
+                     </div>
+                     <div id="projectBox">
+                        <div class="grid">
+                           <div class="flex-row" id="projectGrid">
+                              <!--<div class="thumbnail project">
+                                 <a class="thumbnail-image" href="/projects/707844138/"><img alt="" src="https://cdn2.scratch.mit.edu/get_image/project/707844138_480x360.png"></a>
+                                 <div class="thumbnail-info">
+                                    <a class="creator-image" href="/users/Ax0lts/"><img alt="Ax0lts" src="https://cdn2.scratch.mit.edu/get_image/user/72092169_32x32.png"></a>
+                                    <div class="thumbnail-title">
+                                       <a href="/projects/707844138/" title="The Ultimate Castaways MAP!">The Ultimate Castaways MAP!</a>
+                                       <div class="thumbnail-creator"><a href="/users/Ax0lts/">Ax0lts</a></div>
+                                    </div>
+                                 </div>
+                              </div>-->
+                           </div>
+                        </div>
+                        <button class="button" type="button" onclick="loadMore()" id="more"><span>Loading ...</span></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="footer">
+               <div class="inner">
+                   Currently in beta. Made by TimMcCool. Not affiliated with the Scratch team.
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
