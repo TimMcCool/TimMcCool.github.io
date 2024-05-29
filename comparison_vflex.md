@@ -2,7 +2,7 @@
 
 The referenced scratchattach code is taken from scratchattach's cloud requests sprite (https://github.com/TimMcCool/scratchattach/blob/main/assets/CloudRequests_Template.sb3)
 
-The referenced @VFlex code is taken from the "site.requests" sprite of his "Live Scratch" project (https://scratch.mit.edu/projects/1018354340/)
+The referenced @VFlex code is taken from the "site.requests" sprite of his "Live Scratch" project (https://scratch.mit.edu/projects/1018354340/) This is not the only project of his that contains the code shown below.
 
 ## Comparison
 
